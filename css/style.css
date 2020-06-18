@@ -1,0 +1,98 @@
+/* Variables */
+/* grey */
+/* green */
+/* orange */
+/* yellow */
+/* white */
+/* black */
+/* Navigation */
+.navigation {
+  padding: 12px;
+  background: #0c0d0f;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+  margin-right: 36px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: #3ae374;
+}
+
+nav ul ul li {
+  display: block;
+  margin-bottom: 12px;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+  text-align: center;
+  position: absolute;
+  background: #3d3d3d;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+
+nav ul ul a:hover {
+  color: #3d3d3d;
+  display: block;
+  padding: 0 24px;
+}
+
+/*splash*/
+.splash {
+  background: #121212;
+  color: #ffffff;
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.social-media ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.social-media ul li {
+  font-size: 0;
+  margin: 10px;
+}
+
+.social-media i {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #ffffff;
+  line-height: 60px;
+  text-align: center;
+  color: #fffa65;
+}
+/*# sourceMappingURL=style.css.map */

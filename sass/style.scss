@@ -1,0 +1,103 @@
+/* Variables */
+
+$color-one: #3d3d3d; /* grey */
+$color-two: #3ae374; /* green */
+$color-three: #ff9f1a; /* orange */
+$color-four: #fffa65; /* yellow */
+$color-light: #ffffff; /* white */
+$color-dark: #121212; /* black */
+$font-text: 'Inconsolata', sans-serif;
+$font-header: 'Signika', sans-serif;
+$transition: all 1s;
+
+
+/* Navigation */
+
+.navigation {
+    padding: 12px;
+    background: #0c0d0f;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    margin-right: 36px;    
+}
+
+nav a {
+    text-decoration: none;    
+    color: $color-light;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: $color-two;   
+}
+
+nav ul ul li {
+    display: block;   
+    margin-bottom: 12px;
+}
+    
+nav ul ul {    
+    display: none; 
+}
+
+nav li:hover ul {
+    display: block;  
+    text-align: center;
+    position: absolute;
+    background: $color-one;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 12px;
+}
+
+nav ul ul a:hover {
+    color: $color-one;  
+    display: block;
+    padding: 0 24px;
+}
+
+
+/*splash*/
+
+.splash {
+    background: #121212;
+    color: $color-light;
+    min-height: 500px;
+    display: flex;
+}
+
+.splash-inner {
+    margin: auto;    
+    max-width: 70%;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media ul li {
+    font-size: 0; 
+    margin: 10px;
+}
+
+.social-media i {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50   %;
+    cursor: pointer;
+    background: $color-light;
+    line-height: 60px;
+    text-align: center;
+    color: $color-dark;
+}
