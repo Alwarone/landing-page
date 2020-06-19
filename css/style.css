@@ -5,44 +5,44 @@
 /* yellow */
 /* white */
 /* black */
-/* Navigation */
-.navigation {
+/* navigation */
+.menu {
   padding: 12px;
   background: #0c0d0f;
 }
 
-nav ul {
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-nav li {
+.menu li {
   display: inline-block;
   position: relative;
   margin-right: 36px;
 }
 
-nav a {
+.menu a {
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
 }
 
-nav a:hover {
+.menu a:hover {
   background: #3ae374;
 }
 
-nav ul ul li {
+.menu ul ul li {
   display: block;
   margin-bottom: 12px;
 }
 
-nav ul ul {
+.menu ul ul {
   display: none;
 }
 
-nav li:hover ul {
+.menu li:hover ul {
   display: block;
   text-align: center;
   position: absolute;
@@ -52,7 +52,7 @@ nav li:hover ul {
   padding-top: 12px;
 }
 
-nav ul ul a:hover {
+.menu ul ul a:hover {
   color: #3d3d3d;
   display: block;
   padding: 0 24px;
@@ -93,6 +93,6 @@ nav ul ul a:hover {
   background: #ffffff;
   line-height: 60px;
   text-align: center;
-  color: #fffa65;
+  color: #121212;
 }
 /*# sourceMappingURL=style.css.map */

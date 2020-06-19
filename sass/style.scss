@@ -11,45 +11,45 @@ $font-header: 'Signika', sans-serif;
 $transition: all 1s;
 
 
-/* Navigation */
+/* navigation */
 
-.navigation {
+.menu {
     padding: 12px;
     background: #0c0d0f;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-nav li {
+.menu li {
     display: inline-block;
     position: relative;
     margin-right: 36px;    
 }
 
-nav a {
+.menu a {
     text-decoration: none;    
     color: $color-light;
     padding: 10px;
 }
 
-nav a:hover {
+.menu a:hover {
     background: $color-two;   
 }
 
-nav ul ul li {
+.menu ul ul li {
     display: block;   
     margin-bottom: 12px;
 }
     
-nav ul ul {    
+.menu ul ul {    
     display: none; 
 }
 
-nav li:hover ul {
+.menu li:hover ul {
     display: block;  
     text-align: center;
     position: absolute;
@@ -59,7 +59,7 @@ nav li:hover ul {
     padding-top: 12px;
 }
 
-nav ul ul a:hover {
+.menu ul ul a:hover {
     color: $color-one;  
     display: block;
     padding: 0 24px;
@@ -94,7 +94,7 @@ nav ul ul a:hover {
     width: 60px;
     height: 60px;
     font-size: 30px;
-    border-radius: 50   %;
+    border-radius: 50%;
     cursor: pointer;
     background: $color-light;
     line-height: 60px;
