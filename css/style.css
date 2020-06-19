@@ -1,10 +1,56 @@
 /* Variables */
 /* grey */
 /* green */
-/* orange */
+/* light-grey */
 /* yellow */
 /* white */
 /* black */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #ffffff;
+}
+
 /* navigation */
 .menu {
   padding: 12px;
@@ -72,11 +118,40 @@ ul {
   max-width: 70%;
 }
 
+.home {
+  background-color: #121212;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 72px;
+  word-spacing: -24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-one {
+  border-color: #fffa65;
+  color: #fffa65;
+}
+
+.btn-one:hover {
+  color: black;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+/* services */
 .social-media ul {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .social-media ul li {
@@ -93,6 +168,61 @@ ul {
   background: #ffffff;
   line-height: 60px;
   text-align: center;
-  color: #121212;
+  color: #fffa65;
+}
+
+/* portfolio */
+.portfolio {
+  background-color: #cdcec5;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.item {
+  width: 50%;
+  height: 100%;
+  max-width: 250px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* footer */
+.social ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.social ul li {
+  font-size: 0;
+  margin: 10px;
+}
+
+.social i {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #121212;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.social i:hover {
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */
